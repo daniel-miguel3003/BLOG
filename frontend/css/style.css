@@ -7,7 +7,7 @@
 
 body {
   font-family: "Courier New", Courier, monospace;
-  background: url(/images/bg2_black.jpg) no-repeat;
+  background: url("../public/images/bg2_black.jpg") no-repeat;
   background-size: cover;
 }
 

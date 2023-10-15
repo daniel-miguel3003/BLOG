@@ -10,34 +10,34 @@ app.use(bodyParser.json())
 
 app.listen(3000, () => console.log("Servidor iniciado na porta 3000"))
 
-app.use(express.static(__dirname + "/public"))
+app.use(express.static(__dirname + "/frontend/public"))
 
 app.get("/", (req, res) =>
-  res.sendFile(__dirname + "/frontend/views/index.html")
+  res.sendFile(__dirname + "/frontend/pages/index.html")
 )
 
-app.get("/slipknot", (req, res) =>
-  res.sendFile(__dirname + "/frontend/views/slipknot.html")
+app.get("./slipknot.html", (req, res) =>
+  res.sendFile(__dirname + "/frontend/pages./slipknot.html")
 )
 
-app.get("/contact", (req, res) =>
-  res.sendFile(__dirname + "/frontend/views/contact.html")
+app.get("./contact.html", (req, res) =>
+  res.sendFile(__dirname + "/frontend/pages./contact.html")
 )
 
 app.get("/obrigado", (req, res) =>
-  res.sendFile(__dirname + "/frontend/views/obrigado.html")
+  res.sendFile(__dirname + "/frontend/pages/obrigado.html")
 )
 
-app.get("/soad", (req, res) =>
-  res.sendFile(__dirname + "/frontend/views/soad.html")
+app.get("./soad.html", (req, res) =>
+  res.sendFile(__dirname + "/frontend/pages./soad.html")
 )
 
-app.get("/feedkback", (req, res) =>
-  res.sendFile(__dirname + "/frontend/views/feedkback.html")
+app.get("./feedback.html", (req, res) =>
+  res.sendFile(__dirname + "/frontend/pages./feedback.html")
 )
 
-app.get("/acdc", (req, res) =>
-  res.sendFile(__dirname + "/frontend/views/acdc.html")
+app.get("./acdc.html", (req, res) =>
+  res.sendFile(__dirname + "/frontend/pages./acdc.html")
 )
 
 app.post("/enviamsg", function (req, res) {
@@ -59,7 +59,7 @@ app.get("/lista-feedback", function (req, res) {
   const dados = table
     .findAll()
     .then(function (dado) {
-      res.sendFile("/frontend/views/lista-feedback"), { dado: dado }
+      res.sendFile("./frontend/pages/lista-feedback"), { dado: dado }
     })
     .catch(function (error) {
       console.log("Erro!" + error)
