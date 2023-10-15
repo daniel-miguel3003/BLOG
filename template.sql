@@ -5,8 +5,3 @@ CREATE TABLE tb_rockband_blog_comments (
     comment_commentary varchar(255),
     CONSTRAINT rockbando_blog_comments_pk PRIMARY KEY  (comment_id)
 );
-
-
-
-INSERT INTO tb_rockband_blog_comments (comment_nome, comment_email, comment_commentary)
-VALUES ('Eduardo', 'aguiar.edu1503@gmail.com', 'TESTEEEEEEEEEEEEE');
