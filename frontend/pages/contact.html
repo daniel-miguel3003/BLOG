@@ -75,17 +75,26 @@
             <form id="contact-form" method="post" action="./enviamsg">
               <h2>Escreva sua opinião</h2>
               <div class="input-box">
-                <input type="text" name="nome" required="true" />
+                <input type="text" id="form-name" name="nome" required="true" />
                 <span>Nome Completo</span>
               </div>
 
               <div class="input-box">
-                <input type="email" name="email" required="true" />
+                <input
+                  type="email"
+                  id="form-email"
+                  name="email"
+                  required="true"
+                />
                 <span>Email</span>
               </div>
 
               <div class="input-box">
-                <textarea required="true" name="msg"></textarea>
+                <textarea
+                  required="true"
+                  id="form-message"
+                  name="msg"
+                ></textarea>
                 <span>Escreve sua mensagem aqui rock star...</span>
               </div>
 
@@ -98,7 +107,6 @@
       </div>
     </section>
 
-    <script src="script.js"></script>
-    <script src="connectmysql.js"></script>
+    <script src="../js/contact-form.js"></script>
   </body>
 </html>
