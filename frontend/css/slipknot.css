@@ -24,7 +24,7 @@ a {
 
 @font-face {
   font-family: Slipknot;
-  src: url(/font/Sickness.ttf);
+  src: url("../public/font/Sickness.ttf");
 }
 
 nav {

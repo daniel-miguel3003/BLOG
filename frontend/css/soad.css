@@ -22,7 +22,7 @@ a {
 
 @font-face {
   font-family: Slipknot;
-  src: url(./slipknot.html/font/Sickness.ttf);
+  src: url("../public/font/Sickness.ttf");
 }
 
 nav {

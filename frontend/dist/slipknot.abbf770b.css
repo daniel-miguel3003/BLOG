@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: url("/bg2_black.55e5b99b.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: Slipknot;
+  src: url("/Sickness.c1ec8ca5.ttf");
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff2e7;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+nav ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: rgb(26, 24, 24);
+  margin-top: 15px;
+  margin-left: -38px;
+}
+
+nav ul li:hover .sub-menu-1 ul {
+  display: block;
+}
+
+nav ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover {
+  background-color: #e64717;
+}
+
+a.active {
+  border-bottom: 1px solid white;
+  transition: 0.5s;
+}
+
+label.logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  padding: 0 100px;
+  line-height: 80px;
+}
+
+.logo_page {
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Slipknot;
+  color: white;
+}
+
+.conteudo {
+  border-top: 0.4px solid #fff2e7;
+  margin-bottom: 48px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-weight: 400;
+  font-size: 82px;
+  color: #fff2e7;
+  font-family: Slipknot;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ecd6c4;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  margin-top: 50px;
+  padding-top: 48px;
+  font-family: Slipknot;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 80px;
+  color: #fff2e7;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.paragrafo {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #ecd6c4;
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.slipknot-gif {
+  width: 500px;
+  height: 400px;
+  border-radius: 45%;
+  margin: 1rem;
+}
+
+.conteudo-principal-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.paragrafo2 {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #ecd6c4;
+  text-align: justify;
+  margin-right: 20px;
+  margin-top: 120px;
+}
+
+.paul-gray {
+  margin-right: 50px;
+}
+
+.paragrafo-3 {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #ecd6c4;
+  text-align: justify;
+  margin-right: 80px;
+}
+
+table {
+  border: 2px solid white;
+  margin: auto;
+  height: 350px;
+  width: 80%;
+  text-align: center;
+  background-color: rgb(22, 21, 21);
+  margin-top: 30px;
+}
+
+th {
+  border: 2px solid #ccc;
+  color: white;
+  font-size: 35px;
+}
+
+td {
+  border: 2px solid #ccc;
+  color: white;
+  font-size: 30px;
+}
+
+.rodape {
+  padding: 32px;
+}
+
+.rodape-imagem {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*# sourceMappingURL=/slipknot.abbf770b.css.map */
