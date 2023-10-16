@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  db:
+    image: arm64v8/mysql:oracle
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: blog_db
+      MYSQL_ROOT_USER: root
+    ports: 
+      - '3306:3306'
